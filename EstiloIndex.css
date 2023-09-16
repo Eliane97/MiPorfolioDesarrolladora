@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.toolbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.toolbar-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toolbar-button:hover {
+    background-color: #555;
+}
+
+/* Agrega estilos CSS para la barra de herramientas */
+.toolbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    /* Establece el fondo de la barra de herramientas como transparente */
+    padding: 10px;
+    /* Añade espacio alrededor de los botones */
+}
+
+/* Estilos para los botones de la barra de herramientas */
+.toolbar-button {
+    background-color: transparent;
+    /* Establece el fondo del botón como transparente */
+    color: #555;
+    /* Cambia el color del texto de los botones */
+    border: none;
+    padding: 10px 15px;
+    /* Ajusta el espaciado interno de los botones (menos margen horizontal) */
+    margin-right: 1px;
+    /* Añade menos margen entre los botones */
+    cursor: pointer;
+}
+
+/* Estilos para la imagen en la parte derecha */
+.right-image {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 600px;
+    /* Ancho de la imagen */
+    height: 400px;
+    /* Alto de la imagen */
+}
+
+/* Estilos para el texto en la parte izquierda */
+.left-text {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    /* Ajusta la posición del texto a la izquierda */
+    font-size: 30px;
+    /* Tamaño de fuente grande */
+    font-weight: roboto;
+    /* Texto en negrita */
+    color: #445964;
+    /* Color del texto */
+
+}
+
+/* Estilos para el nuevo botón */
+.custom-button {
+
+
+    /* Tamaño de fuente del botón */
+    padding: 2px 5px;
+    /* Espaciado interno del botón */
+    margin-top: 400px;
+    margin-left: 75px;
+    /* Agrega margen superior para separar el botón del texto */
+    cursor: pointer;
+}
+
+/* Estilos para la imagen dentro del botón y ajusta el tamaño */
+.image-button img {
+    width: 230px;
+    /* Ancho de la imagen más pequeño */
+    height: 50px;
+    /* Alto de la imagen más pequeño */
+    margin-top: 375px;
+    margin-left: 90px;
+}
+

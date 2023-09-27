@@ -1,42 +1,55 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html><!-- Lo que indica que es html5 -->
+<html lang="es"> <!--Idioma que se muestra la pagina -->
 
 <head>
+    <!-- Indica que se utilizan caracteres occidentales -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Descripción" content="porfolio desarrolladora de software"/>
-    <meta name="keywords" content="porfolio,trabajo,programador,java,porfolio,desarrolladora,skilss,cv"
-    <link rel="stylesheet" href="EstiloIndex.css">
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Aqui para que los buscadores encuentren mi pagina con respecto a mi contenido -->
+    <meta name="Descripción" content="porfolio desarrolladora de software" />
+    <meta name="keywords" content="porfolio,trabajo,programador,java,porfolio,desarrolladora,skilss,cv" />
+    <title>Inicio Porfolio</title>
+    <!-- Aqui van los enlazamientos con su respectivo css, javaScript -->
+    <link rel="stylesheet" href="Estilo.css">
+
     <title>Toolbar Example</title>
 </head>
 
 <body>
-    <!-- Agrega el texto en la parte izquierda -->
-    <div class="left-text">
-        <span style="font-size: 30px; font-weight: bold;"> Hola personas! <br>
-            <span style="font-size: 45px; font-weight: bold;">Soy Eliane Godoy,</span><br>
-            <span style="font-size: 45px; font-weight: bold;">y soy Desarrolladora </span><br>
-            <span style="font-size: 45px; font-weight: bold;">de Software.</span><br>
-            <span style="font-size: 30px; font-weight: bold;"> Sean bienvenidos a mi porfolio WebSite
-                </strong>
-    </div>
-    <div <button  class="image-button">
-        <img src="Imagenes/Button.png" alt="Texto alternativo de la imagen">
+    <header>
+        <!-- Agrega el texto en la parte izquierda -->
+        <div class="textoBiembenida">
+            <h3> Hola personas! <br></h3>
+            <h1>Soy Eliane Godoy,<br></h1>
+            <h1>y soy Desarrolladora<br></h1>
+            <h1>de Software.<br></h1>
+            <h3>Sean bienvenidos a mi porfolio WebSite
+                </strong></h3>
+        </div>
+    </header>
+    <nav>
+        <div class="toolbar">
+            <button class="toolbar-button" id="bHome">Home</button>
+            <button class="toolbar-button" id="bSonreMi">Sobre mi</button>
+            <button class="toolbar-button" id="bTecnologias">Tecnologías</button>
+            <button class="toolbar-button" id="bProyectos">Proyectos</button>
+            <button class="toolbar-button" id="bContacto">Contacto</button>
+        </div>
+    </nav>
+    <section>
+        <div>
+            <!-- Agrega la imagen en la parte derecha utilizando el esquema de datos (data:) -->
+            <img class="imagenBiembenida" src="Imagenes/Biembenida.png" alt="Imagen de Bienvenida">
+        </div>
+    </section>
+
+    <section>
+        <button class="estiloImagenBoton" id="bSobreMi2">
+            <img src="Imagenes/Button.png" alt="Texto alternativo de la imagen">
         </button>
+    </section>
 
-    </div>
-
-    <div class="toolbar">
-        <button class="toolbar-button">Home</button>
-        <button class="toolbar-button">Sobre mi</button>
-        <button class="toolbar-button">Tecnologías</button>
-        <button class="toolbar-button">Proyectos</button>
-        <button class="toolbar-button">Contacto</button>
-    </div>
-
-    <!-- Agrega la imagen en la parte derecha utilizando el esquema de datos (data:) -->
-    <img class="right-image" src="Imagenes/Biembenida.png" alt="Imagen de Bienvenida">
+    <script src="accion.js"></script>
 </body>
 
 </html>

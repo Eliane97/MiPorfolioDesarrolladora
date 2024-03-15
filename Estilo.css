@@ -1,0 +1,335 @@
+/* Estilos para la imagen en la parte derecha */
+.imagenBiembenida {
+    position: absolute;
+    /* Define la posición del elemento como absoluta con respecto a su contenedor */
+    top: 50%;
+    /* Coloca el elemento a 100 píxeles desde la parte superior del contenedor */
+    right: 0;
+    /* Coloca el elemento a la derecha del contenedor (borde derecho) */
+    width: 50%;
+    /* Ancho de la imagen */
+    height: 70%;
+    /* Alto de la imagen */
+    margin-top: -15%;
+    margin-right: 1.5%;
+
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3%;
+    color: #263138;
+    font-size: 15px;
+}
+
+/* Estilos para el texto en la parte izquierda */
+.textoBiembenida {
+    position: absolute;
+    /* Define la posición del elemento como absoluta con respecto a su contenedor */
+    top: 16%;
+    /* Coloca el elemento a 120 píxeles desde la parte superior del contenedor */
+    left: 10%;
+    /* Coloca el elemento a 100 píxelses desde el lado izquierdo del contenedor */
+    font-size: 30px;
+    /* Tamaño de fuente grande */
+    font-weight: roboto;
+    /* Establece el peso de la fuente como "bold" */
+    /* Define el peso de la fuente como "roboto" (posiblemente deba ser un valor numérico, por ejemplo, "font-weight: 700") */
+    color: #445964;
+    /* Color del texto */
+    line-height: 0.25;
+    /* Reduce el interlineado al mínimo (1x el tamaño de fuente) */
+}
+
+.textoSobreMi {
+    font-weight: bold;
+    font-size: 200%;
+    /* background-color: rgb(177, 12, 18); */
+    float: left;
+    line-height: 0.15;
+    margin-left: 10%;
+    margin-top: 2%;
+
+}
+
+#linea1 {
+    color: #263138;
+}
+
+#linea2 {
+    color: #445964;
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: roboto;
+    font-size: 150%;
+    color: #445964;
+    margin-top: -12%;
+}
+
+/* Estilos para el botón con imagen */
+/* Estilos para el botón con imagen */
+.estiloImagenBoton {
+    position: absolute;
+    /* Define la posición del botón como absoluta */
+    bottom: 10px;
+    /* Ajusta la distancia desde la parte inferior */
+    left: 10px;
+    /* Coloca el botón en la parte izquierda del contenedor */
+    border: none;
+    background-color: transparent;
+    margin-left: 120px;
+    /* Añade margen izquierdo al botón si lo deseas */
+    margin-bottom: 150px;
+}
+
+
+/* Estilo para el contenedor con clase "foto" */
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* Añade posición relativa */
+    top: -130px;
+    width: 100%;
+    /* Opcional: ajusta el ancho del contenedor según tus necesidades */
+    height: 200px;
+    /* Opcional: ajusta la altura del contenedor según tus necesidades */
+    /* background-color: #7617f1; */
+    /* Opcional: agrega un fondo para visualizar el contenedor */
+}
+
+/* Estilo para la imagen dentro del contenedor */
+.foto img {
+    max-width: 85%;
+    /* Asegura que la imagen no sea más ancha que su contenedor */
+    max-height: 85%;
+    /* Asegura que la imagen no sea más alta que su contenedor */
+
+}
+
+/* Estilo para la imagen dentro del contenedor */
+.Contenedor3imagenes img {
+    max-width: 100%;
+    /* Cambia el valor para reducir el ancho máximo al 30% */
+    max-height: 100%;
+    /* Cambia el valor para reducir la altura máxima al 30% */
+}
+
+.Contenedor6imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Distribuye el espacio entre los elementos hijos del contenedor */
+    margin: 10% auto;
+    /* Margen para centrar el contenedor horizontalmente */
+    max-width: 55%;
+    /* Cambia el valor para reducir el ancho máximo al 40% */
+    max-height: 35%;
+    /* Cambia el valor para reducir la altura máxima al 20% */
+    /* Borde alrededor del contenedor */
+    flex-wrap: wrap;
+    /* Permite que las imágenes se ajusten en filas */
+    margin-top: 0px;
+    /* Margen superior del contenedor */
+}
+
+.Contenedor3imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+    margin-bottom: -2%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+
+
+/* Agrega estilos CSS para la barra de herramientas */
+.toolbar {
+    position: absolute;
+    /* Define la posición del elemento como absoluta con respecto a su contenedor */
+    top: 0;
+    /* Coloca la barra de herramientas en la parte superior del contenedor */
+    right: 0;
+    /* Coloca la barra de herramientas en la parte derecha del contenedor */
+    background-color: transparent;
+    /* Establece el fondo de la barra de herramientas como transparente */
+    padding: 10px;
+    /* Añade espacio alrededor de los botones */
+}
+
+.toolbar-button {
+    background-color: transparent;
+    /* Establece el fondo del botón como transparente */
+    color: #555;
+    /* Cambia el color del texto de los botones */
+    border: none;
+    /* Elimina el borde del botón */
+    padding: 10px 15px;
+    /* Ajusta el espaciado interno del botón (10 píxeles arriba y abajo, 15 píxeles izquierda y derecha) */
+    margin-right: -1%;
+    /* Añade margen derecho entre los botones */
+    font-size: 130%;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fuentes/Roboto-Black.ttf') format('truetype');
+    /* Asegúrate de reemplazar 'Fuentes/Roboto/Roboto-Black.ttf' con la ruta correcta al archivo de la fuente descargada. */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.headerHabilidades {
+    text-align: center;
+    /* Centra el contenido del encabezado horizontalmente */
+    padding: 20px;
+    /* Añade espacio alrededor del encabezado */
+    color: #445964;
+    font-size: 50px;
+    margin-top: 50px;
+
+}
+
+
+.textoTecnologias {
+    margin-left: -15px;
+    color: #445964;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
+.sectionHabilidades {
+    text-align: center;
+    /* Centra el contenido horizontalmente en la sección */
+
+}
+
+.sectionHabilidades img {
+    width: 250px;
+    /* Establece un ancho fijo para todas las imágenes */
+    height: 150px;
+    /* Establece una altura fija para todas las imágenes */
+    margin: 5px;
+    /* Añade un pequeño margen entre las imágenes */
+
+}
+
+.Contenedor7Imagenes img {
+    width: 800px;
+    /* Establece el ancho deseado para las imágenes */
+    height: 300px;
+    /* Autoajusta la altura para mantener la proporción */
+
+}
+
+.Contenedor4imagenes img {
+    width: 800px;
+    /* Establece el ancho deseado para las imágenes */
+    height: 50px;
+    /* Autoajusta la altura para mantener la proporción */
+
+
+}
+
+/* Styles pag de proyectos */
+
+
+.ContenedorImagProyecto img {
+    text-align: center;
+    height: 300px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+/* Estilos para el botón con imagen */
+.boton-con-imagen {
+    background-color: transparent;
+    /* Fondo transparente para que solo se muestre la imagen */
+    border: none;
+    padding: 0;
+    /* Elimina el espaciado interno del botón */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+    display: inline-block;
+    /* Coloca los botones en línea uno al lado del otro */
+    margin: 0 10px;
+    /* Añade un pequeño margen entre los botones (ajusta según sea necesario) */
+    margin-left: 320px;
+
+
+}
+
+/* Estilo para la imagen dentro del botón */
+.boton-con-imagen img {
+    height: 50px;
+    /* Altura deseada para la imagen */
+    width: 50px;
+    /* Ancho deseado para la imagen */
+}
+
+.tituloProyectos {
+    text-align: center;
+    font-size: 70px;
+    font: roboto;
+    margin-top: 100px;
+    color: #445964;
+}
+
+/* Estilos para Contacto */
+
+body.contact {
+    background-image: url('https://wallpaperaccess.com/full/3512823.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    /* Añade estas líneas para centrar */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Añadido para centrar verticalmente también */
+    margin: 50px auto 0; /* Añade margen en la parte superior */
+}
+
+.transparent-box form {
+    width: 100%; /* Asegura que el formulario se ajuste al ancho de .transparent-box */
+}
+
+.transparent-box form .form-group {
+    text-align: left;
+}
+
+.contact-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#tituloContact {
+    text-align: center;
+    color:#555;
+    font-family: Arial, sans-serif;
+    margin-top: 75px; /* Ajusta la posición vertical */
+}

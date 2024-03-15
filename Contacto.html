@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us and About Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body class="contact">
+    <header>
+        <h1 id="tituloContact">Envíame un mensaje, me comunicaré contigo en breve.</h1>
+    </header>
+    <nav>
+        <div class="toolbar">
+            <button class="toolbar-button" id="bHome">Home</button>
+            <button class="toolbar-button" id="bSonreMi">Sobre mi</button>
+            <button class="toolbar-button" id="bTecnologias">Tecnologías</button>
+            <button class="toolbar-button" id="bProyectos">Proyectos</button>
+            <button class="toolbar-button" id="bContacto">Contacto</button>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="transparent-box">
+                        <form style="margin: 0 auto;" action="enviar.php" method="post"> <!-- Aplica márgenes automáticos solo al formulario -->
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+    </footer>
+    <script src="accion.js"></script>
+</body>
+
+</html>

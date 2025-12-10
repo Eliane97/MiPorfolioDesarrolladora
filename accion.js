@@ -1,3 +1,5 @@
+console.log("JS cargado correctamente");
+
 // Obtener botones
 const bHome = document.getElementById("bHome");
 const bSonreMi = document.getElementById("bSonreMi");
@@ -6,12 +8,12 @@ const bProyectos = document.getElementById("bProyectos");
 const bContacto = document.getElementById("bContacto");
 const bSobreMi2 = document.getElementById("bSobreMi2");
 
-// Función para navegar (siempre funciona en GitHub Pages)
+// Función universal para navegar
 function irA(pagina) {
     window.location.href = pagina;
 }
 
-// Asignar eventos
+// Asignar eventos a los botones
 if (bHome) bHome.onclick = () => irA("index.html");
 if (bSonreMi) bSonreMi.onclick = () => irA("sobreMi.html");
 if (bTecnologias) bTecnologias.onclick = () => irA("Habilidades.html");

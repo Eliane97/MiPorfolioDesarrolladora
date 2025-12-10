@@ -10,42 +10,40 @@ var boton8 = document.getElementById("bFacturador");
 var boton9 = document.getElementById("bAppChat");
 
 
-// Agrega eventos click a cada botón
+// Redirecciones internas (GitHub Pages)
 boton1.addEventListener("click", function () {
-    // Redirecciona a la primera página en la misma ventana del navegador
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "index.html";
 });
 
 boton2.addEventListener("click", function () {
-    // Redirecciona a la segunda página en la misma ventana del navegador
-    window.location.href = "http://127.0.0.1:5500/sobreMi.html";
+    window.location.href = "sobreMi.html";
 });
 
 boton3.addEventListener("click", function () {
-    // Redirecciona a la tercera página en la misma ventana del navegador
-    window.location.href = "http://127.0.0.1:5500/Habilidades.html";
+    window.location.href = "Habilidades.html";
 });
+
 boton4.addEventListener("click", function () {
-    // Redirecciona a la tercera página en la misma ventana del navegador
-    window.location.href = "http://127.0.0.1:5500/Proyectos.html";
+    window.location.href = "Proyectos.html";
 });
+
 boton5.addEventListener("click", function () {
-    // Redirecciona a la tercera página en la misma ventana del navegador
-    window.location.href = "http://127.0.0.1:5500/Contacto.html";
+    window.location.href = "Contacto.html";
 });
+
 boton6.addEventListener("click", function () {
-    // Redirecciona a la tercera página en la misma ventana del navegador
-    window.location.href = "http://127.0.0.1:5500/sobreMi.html";
+    window.location.href = "sobreMi.html";
 });
+
+// Redirecciones externas (están bien así)
 boton7.addEventListener("click", function () {
-    // Redirecciona a la tercera página en la misma ventana del navegador
     window.location.href = "https://github.com/Eliane97/Android-Calculadora.git";
 });
+
 boton8.addEventListener("click", function () {
-    // Redirecciona a la tercera página en la misma ventana del navegador
     window.location.href = "https://github.com/Eliane97/Facturador.git";
 });
+
 boton9.addEventListener("click", function () {
-    // Redirecciona a la tercera página en la misma ventana del navegador
     window.location.href = "https://github.com/PolNun/lpet_android.git";
 });
